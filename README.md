@@ -24,7 +24,7 @@ This repository explains evaluation metrics in **plain language**, using everyda
 
 ---
 
-## Classification Metrics (explained simply)
+## Classification Metrics
 
 ### Accuracy
 
