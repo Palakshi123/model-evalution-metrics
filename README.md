@@ -11,7 +11,7 @@ Evaluating a machine learning model is really about answering one question:
 
 In many real-world problems—like healthcare, fraud detection, and safety—**most cases are normal**, and only a small number are critical. Because of this, some common metrics can make a model look good even when it fails at what actually matters.
 
-This repository explains evaluation metrics in **plain, human language**, using everyday examples.
+This repository explains evaluation metrics in **plain language**, using everyday examples.
 
 ---
 
