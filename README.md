@@ -108,5 +108,57 @@ It does not tell you *which* mistake happens more often.
 
 ### Log Loss
 
-**What it means:**  
-How confident and accurate
+**What it means:**  How confident and accurate
+**Simple example:**  If a model says a transaction is “almost certainly fraud” and it’s wrong, that mistake is worse than being unsure and wrong.
+
+---
+
+### Confusion Matrix
+
+**What it means:**  A full picture of fraud vs not-fraud mistakes.
+
+**Simple example:**  
+It shows whether the model mostly:
+- Misses fraud  
+- Or wrongly flags normal transactions
+
+---
+
+## Regression Metrics (brief and simple)
+
+### MAE 
+Shows the average size of mistakes. Useful when you care about typical error.
+
+### RMSE
+Punishes big mistakes more. Useful when large errors cause serious problems.
+
+### MAE vs RMSE
+Use RMSE when big mistakes hurt much more than small ones.
+
+---
+
+## Forecasting and Time-Based Problems
+
+**Simple rules:**
+- Always test on future data
+- Don’t mix past and future
+- A model that works today but fails tomorrow is not reliable
+
+---
+
+## How to choose the right metric
+
+Ask yourself:
+1. Are most cases normal or not?
+2. Is missing fraud worse than blocking normal users?
+3. Are predictions used to take action?
+4. Do I understand what mistakes the model makes?
+
+---
+
+## Common mistakes
+
+- Trusting accuracy in fraud problems
+- Ignoring rare but serious cases
+- Using one metric to judge everything
+- Not checking which mistakes actually happen
