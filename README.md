@@ -15,7 +15,7 @@ This repository explains evaluation metrics in **plain language**, using everyda
 
 ---
 
-## What you will learn
+## What to learn
 
 - Why some metrics are misleading in real life
 - How different metrics focus on different mistakes
